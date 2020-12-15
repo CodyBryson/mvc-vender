@@ -1,0 +1,72 @@
+@import "./_variables.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./_overrides.scss";
+@import "./custom.scss";
+@import "./loaders.scss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $body-bg;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.chips{
+  background-image: url(chips.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.almonds{
+  background-image: url(almonds.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.coke{
+  background-image: url(coke.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.sprite{
+  background-image: url(sprite.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.fanta{
+  background-image: url(fanta.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.powerade{
+  background-image: url(powerade.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.redbull{
+  background-image: url(redbull.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.water{
+  background-image: url(smartwater.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+.chips{
+  background-image: url(chips.png);
+  background-size: cover;
+  max-width: 100px;
+  max-height: 100px;
+}
+
