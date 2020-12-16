@@ -9,7 +9,7 @@ class AppState extends EventEmitter {
 
 
   vendingOptions = {
-    snacks: [new Snack("almonds", .50), new Snack("chips", .75), new Snack("coke", 1.00), new Snack("fanta", 1.00), new Snack("powerade", 1.00), new Snack("redbull", 2.00), new Snack("sprite", 1.00), new Snack("water", 2.00)]
+    snacks: [new Snack("almonds", .50, "almonds.png"), new Snack("chips", .75, "chips.png"), new Snack("coke", 1.00), "coke.png", new Snack("fanta", 1.00, "fanta.png"), new Snack("powerade", 1.00, "powerade.png"), new Snack("redbull", 2.00, "redbull.png"), new Snack("sprite", 1.00, "sprite.png"), new Snack("water", 2.00, "water.png")]
   }
 }
 
